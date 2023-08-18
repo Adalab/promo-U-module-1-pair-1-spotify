@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    background-color: black;
+}
+.principal{
+    background-color: #16acf2;
+    color: white;
+}
+.botonplanes{
+    background-color: #18d958;
+}
