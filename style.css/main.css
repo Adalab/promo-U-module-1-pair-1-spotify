@@ -1,11 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+.header{
+background-color: black;
+
 }
-header{
-    background-color: black;
+.h1 {
+    display: none;
 }
+ .img-logo{
+    width: 120px;
+
+ }
+
 .principal{
     background-color: #16acf2;
     color: white;
