@@ -8,7 +8,10 @@ background-color: black;
 }
  .img-logo{
     width: 120px;
-
+ }
+ 
+ .desplegable {
+    width: 100px;
  }
 
 .principal{
