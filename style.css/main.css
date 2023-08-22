@@ -1,23 +1,61 @@
+@font-face {
+    font-family: roboto;
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+}
+
+:root {
+    --brand-font: roboto;
+}
 
 .header{
 background-color: black;
+display: flex;
+justify-content: space-between;
+height: 10vh;
+}
 
-}
-.h1 {
-    display: none;
-}
- .img-logo{
-    width: 120px;
- }
- 
- .desplegable {
-    width: 100px;
+ .logocabecera{
+    width: 10vh;
  }
 
-.principal{
+.hero{
     background-color: #16acf2;
     color: white;
+    font-family: var(--brand-font);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+
 }
 .botonplanes{
     background-color: #18d958;
+    text-transform: uppercase;
+}
+.secundaria {
+    font-family: var(--brand-font);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 3px;
+}
+.piedepagina {
+    font-family: var(--brand-font);
+    height: 10vh;
+}
+.h2{
+    font-size: 50px;
+}
+.p1{
+    font-size: 30px;
 }
