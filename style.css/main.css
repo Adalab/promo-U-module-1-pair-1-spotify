@@ -28,6 +28,7 @@ height: 10vh;
  .lineas {
     height: 7vh;
     transform: scale(0.5);
+    object-fit: cover;
  }
 
 .hero{
