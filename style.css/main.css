@@ -65,6 +65,7 @@ left: 0;
     
 }
 .piedepagina {
+    display: flex;
     background-color: black;
     font-family: var(--brand-font);
     height: 10vh;
@@ -86,3 +87,9 @@ left: 0;
  .imgbenefit {
     width: 30px;
  }
+
+ .copyright {
+    background-color: black;
+    color: white;
+    margin-inline-end: auto;
+ }}
