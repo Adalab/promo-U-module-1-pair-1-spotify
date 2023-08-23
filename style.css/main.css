@@ -10,26 +10,19 @@
 .header{
 background-color: black;
 display: flex;
+flex-direction: row;
 justify-content: space-between;
 height: 10vh;
+width: 100vw;
+position: sticky;
+top: 0;
+left: 0;
 }
 
- .logocabecera{
-    width: 10vh;
-    height: 3vh;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    margin-left: 30px;
-    margin-right: 10px;
- }
-.spotify {
-    transform: scale(1.5);
+.logocabecera {
+    height: 8vh;
 }
- .lineas {
-    height: 7vh;
-    transform: scale(0.5);
-    object-fit: cover;
- }
+
 
 .hero{
     background-color: #16acf2;
@@ -39,12 +32,20 @@ height: 10vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 30vh;
-
+    height: 50vh;
+    text-align: left;
+     
 }
+
 .botonplanes{
     background-color: #18d958;
     text-transform: uppercase;
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .secundaria {
     font-family: var(--brand-font);
@@ -61,14 +62,27 @@ height: 10vh;
     align-items: center;
     list-style: none;
     gap: 3px;
+    
 }
 .piedepagina {
+    background-color: black;
     font-family: var(--brand-font);
     height: 10vh;
 }
 .h2{
     font-size: 50px;
+    
 }
 .p1{
-    font-size: 30px;
+    font-size: 25px;
 }
+ .p2 {
+    font-size: 12px;
+ }
+
+ .p3 {
+    font-size: 12px;
+ }
+ .imgbenefit {
+    width: 30px;
+ }
