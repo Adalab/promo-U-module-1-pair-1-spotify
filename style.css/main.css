@@ -67,8 +67,10 @@ left: 0;
 .piedepagina {
     display: flex;
     background-color: black;
+    color: white;
     font-family: var(--brand-font);
     height: 10vh;
+    text-decoration: none;
 }
 .h2{
     font-size: 50px;
