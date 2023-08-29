@@ -17,6 +17,7 @@
   background-color: #CCC;
   color: #000; }
 
+<<<<<<< HEAD
 body {
   padding: 2rem;
   height: 100vh;
@@ -71,6 +72,12 @@ body {
   background-color: #16acf2;
   color: white;
   font-family: var(--brand-font);
+=======
+.hero {
+  background-color: #16acf2;
+  color: white;
+  font-family: "Roboto";
+>>>>>>> cf00bd3dadb8560f1cd2825b748719eaa2a95222
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,7 +96,11 @@ body {
   margin-left: 30px; }
 
 .secundaria {
+<<<<<<< HEAD
   font-family: var(--brand-font);
+=======
+  font-family: "Roboto";
+>>>>>>> cf00bd3dadb8560f1cd2825b748719eaa2a95222
   height: 50vh;
   display: flex;
   flex-direction: column;
@@ -133,11 +144,58 @@ body {
 .h2, .p1, .p2 {
   margin-left: 15px; }
 
+<<<<<<< HEAD
+=======
+.header {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0; }
+
+.nav {
+  display: none; }
+  @media (min-width: 480px) {
+    .nav {
+      display: flex;
+      color: white; } }
+
+.header_logoCabecera {
+  height: 7vh;
+  padding: 10px;
+  margin-top: 10px; }
+
+.lineas {
+  display: none; }
+
+.nav_list {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  gap: 10px;
+  align-items: center;
+  font-family: var(--brand-font);
+  font-weight: bold;
+  margin: 25px; }
+
+.nav_list-descargar::after {
+  content: "|";
+  margin-left: 15px; }
+
+>>>>>>> cf00bd3dadb8560f1cd2825b748719eaa2a95222
 .piedepagina {
   display: flex;
   background-color: black;
   color: white;
+<<<<<<< HEAD
   font-family: var(--brand-font);
+=======
+  font-family: "Roboto";
+>>>>>>> cf00bd3dadb8560f1cd2825b748719eaa2a95222
   height: 10vh;
   text-decoration: none;
   font-size: 12px;
@@ -168,6 +226,7 @@ body {
   text-decoration: none;
   color: white; }
 
+<<<<<<< HEAD
 @media (min-width: 480px) {
   .lineas {
     display: none; }
@@ -211,5 +270,10 @@ body {
     bottom: 0;
     display: flex;
     width: 100%; } }
+=======
+.main__list {
+  padding-left: 2rem;
+  padding-bottom: 20px; }
+>>>>>>> cf00bd3dadb8560f1cd2825b748719eaa2a95222
 
 /*# sourceMappingURL=main.css.map */
