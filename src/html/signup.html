@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css" />    
+    <title>Sign Up</title>
+</head>
+<body>
+    <h2>Registrate con tu correo electrónico</h2>
+    <form action="singup" method="post">
+        <label for="email">¿Cuál es tu correo electrónico?</label>
+        <input id="email" type="email" name="email-adress" placeholder="Pon tu correo electrónico.">
+
+        <label for="email">Confirma el correo electrónico</label>
+        <input id="email" type="email" name="email-adress" placeholder="Vuelve a poner tu correo electrónico.">
+
+        <label for="password">Crea una contraseña</label>
+        <input id="password" type="password" name="password" placeholder="Crea una contraseña.">
+
+        <label for="user-name">¿Cómo quieres que te llamemos?</label>
+        <input id="user-name" type="text" name="user-name" placeholder="Pon un nombre de perfil.">
+
+        <label for="birthday">¿Cuál es tu fecha de nacimiento?</label>
+            <label for="day">DÍA</label>
+            <input id="day" type="number" name="day" >
+
+            <label for="month">MES</label>
+            <select name="month" id="month">
+                <option value="select">Seleccionar</option>
+                <option value="january">Enero</option>
+                <option value="february">Febrero</option>
+                <option value="march">Marzo</option>
+                <option value="april">Abril</option>
+                <option value="may">Mayo</option>
+                <option value="june">Junio</option>
+                <option value="july">Julio</option>
+                <option value="august">Agosto</option>
+                <option value="september">Septiembre</option>
+                <option value="october">Octubre</option>
+                <option value="november">Noviembre</option>
+                <option value="december">Diciembre</option>
+            </select>
+
+            <label for="year">AÑO</label>
+            <input id="year" type="number" name="year" >
+
+        <fieldset>
+            <legend>¿Cuál es tu género</legend>
+                <div>
+                    <label for="man">
+                        <input 
+                        id="man"
+                        type="radio"
+                        value="man"
+                        name="gender"
+                        />
+                        Hombre
+                    </label>
+                </div>
+                <div>
+                    <label for="woman">
+                        <input 
+                        id="woman"
+                        type="radio"
+                        value="woman"
+                        name="gender"
+                        />
+                        Mujer
+                    </label>
+                </div>
+                <div>
+                    <label for="non-binary">
+                        <input 
+                        id="non-binary"
+                        type="radio"
+                        value="non-binary"
+                        name="gender"
+                        />
+                        No binario
+                    </label>
+                </div>
+        </fieldset>
+        <fieldset>
+            <div class="checkbox">
+                <label for="promotions">
+                <input 
+                id="promotions"
+                type="checkbox" 
+                value="yes"
+                name="promotions"
+                />
+                Quiero que me envieis novedades y ofertas de Spotify.
+                </label>
+             </div>
+             <div class="checkbox">
+                <label for="signup-data">
+                    <input 
+                    id="signup-data"
+                    type="checkbox" 
+                    value="yes"
+                    name="signup-data"
+                    />
+                    Compartir mis datos de registro con los proveedores de contenidos de Spotify para fines de marketing. Ten en cuenta que tus datos pueden ser transferidos en un país de fuera del EEE, tal y como se recoge en nuestra política de privacidad. 
+                </label>
+            </div>
+        </fieldset>
+        <input type="submit" value="Registrate" class="send">
+    </form>
+</body>
+</html>
